@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="w-full flex items-center justify-end">
-            <NuxtImg alt="hand-space" format="webp" class=" mr-8 flipped-img"
+            <NuxtImg alt="flower-telephone" format="webp" class=" mr-8 flipped-img"
                 src="f/3000521/1500x1293/8a6ea95b5a/flower-telephone.png" width="500" />
         </div>
     </div>

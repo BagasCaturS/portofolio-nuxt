@@ -9,7 +9,7 @@
         </div>
         <p class="text-3xl text-center text-w">This page is currently under construction please come back later. i swear it will be good when you come back here (i hope)</p>
         <NuxtLink to="/">
-            <button class="btn btn-primary">For the mean time, you can go back to here</button>
+            <button class="btn btn-primary">For the mean time, you can go back</button>
         </NuxtLink>
     </div>
 </template>
