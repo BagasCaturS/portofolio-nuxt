@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 <template>
 
     <div class="container mx-auto p-4 ">
