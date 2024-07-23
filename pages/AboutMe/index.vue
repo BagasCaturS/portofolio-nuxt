@@ -18,8 +18,8 @@
             <div class="container flex items-center flex-col gap-8 justify-around">
                 <h2 class="text-3xl">Here are the technologies that i use!</h2>
                 <div class="flex items-center justify-center  gap-4 cssanimation leRainDrop">
-                    <Icon name="uil:github" size="5rem" />
-                    <Icon name="vscode-icons:file-type-vue" size="5rem" />
+                    <Icon name="logos:github-icon" style="white" size="5rem" />
+                    <Icon name="logos:vue" size="5rem" />
                     <Icon name="logos:tailwindcss-icon" size="5rem" />
                     <Icon name="devicon:html5" size="5rem" />
                 </div>

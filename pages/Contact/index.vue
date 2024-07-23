@@ -6,23 +6,26 @@
             <p class="mt-10">Feel free to chat me and ask anything about my projects, or even a random questions!</p>
             <div class="flex gap-4 container flex-col w-fit">
                 <div class="mt-4 flex items-center gap-4 ">
-                    <Icon name="material-symbols-light:location-on-rounded" size="2rem"/>
-                    <span><p class="text-xl">Bandung, Indonesia</p></span>
+                    <Icon name="material-symbols-light:location-on-rounded" size="2rem" />
+                    <span>
+                        <p class="text-xl">Bandung, Indonesia</p>
+                    </span>
                 </div>
                 <div class="flex items-center gap-4">
-                    <Icon name="material-symbols:chat" size="2rem" /> 
+                    <Icon name="material-symbols:chat" size="2rem" />
                     <span>
-                        <a class="text-xl link link-hover  "
-                            href="https://wa.link/0kgbdt">Chat with me!
+                        <a class="text-xl link link-hover  " href="https://wa.link/0kgbdt">Chat with me!
                         </a>
                     </span>
 
                 </div>
                 <div class="flex items-center gap-4">
-                    <Icon name="ic:baseline-mail" size="2rem"/> 
-                    <a href="mailto:bagascatursantoso@gmail.com" class="link link-hover ">
-                        Email me!
-                    </a>
+                    <Icon name="ic:baseline-mail" size="2rem" />
+                    <div class="tooltip tooltip-bottom" data-tip="bagascatursantoso@gmail.com">
+                        <a href="mailto:bagascatursantoso@gmail.com" class="link link-hover ">
+                            Email me!
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
