@@ -1,6 +1,6 @@
 import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 <template>
-
+<SpeedInsights />
     <div class="container mx-auto p-4 ">
         <div class="navbar bg-base-100 rounded-md shadow-md p-5">
             <div class="navbar-start">
@@ -87,6 +87,7 @@ import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 </template>
 
 <script setup>
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 

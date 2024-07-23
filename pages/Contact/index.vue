@@ -14,7 +14,7 @@
                 <div class="flex items-center gap-4">
                     <Icon name="material-symbols:chat" size="2rem" />
                     <span>
-                        <a class="text-xl link link-hover  " href="https://wa.link/0kgbdt">Chat with me!
+                        <a class="text-xl link link-hover" href="https://wa.link/0kgbdt">Chat with me!
                         </a>
                     </span>
 
