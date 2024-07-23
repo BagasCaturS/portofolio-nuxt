@@ -1,6 +1,5 @@
 <!-- import { SpeedInsights } from "@vercel/speed-insights/nuxt" -->
 <template>
-<SpeedInsights />
     <div class="container mx-auto p-4 ">
         <div class="navbar bg-base-100 rounded-md shadow-md p-5">
             <div class="navbar-start">
