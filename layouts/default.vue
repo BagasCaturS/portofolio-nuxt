@@ -1,4 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+<!-- import { SpeedInsights } from "@vercel/speed-insights/nuxt" -->
 <template>
 <SpeedInsights />
     <div class="container mx-auto p-4 ">
