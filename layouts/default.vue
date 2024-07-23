@@ -1,4 +1,3 @@
-<!-- import { SpeedInsights } from "@vercel/speed-insights/nuxt" -->
 <template>
     <div class="container mx-auto p-4 ">
         <div class="navbar bg-base-100 rounded-md shadow-md p-5">
@@ -68,6 +67,7 @@
             </div>
         </div>
         <div class="flex justify-end breadcrumbs text-sm m-8">
+            
             <ul class="border-outline-personal p-2 rounded-md">
                 <li>
                     <NuxtLink to="/">Home</NuxtLink>

@@ -17,6 +17,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/circum": "^1.1.11",
     "@iconify-json/devicon": "^1.1.48",
     "@iconify-json/logos": "^1.1.43",
     "@iconify-json/material-symbols-light": "^1.1.25",

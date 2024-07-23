@@ -6,6 +6,7 @@
             <p class="mt-10">Feel free to chat me and ask anything about my projects, or even a random questions!</p>
             <div class="flex gap-4 container flex-col w-fit">
                 <div class="mt-4 flex items-center gap-4 ">
+                    <!-- use material-symbols-light on icones -->
                     <Icon name="material-symbols-light:location-on-rounded" size="2rem" />
                     <span>
                         <p class="text-xl">Bandung, Indonesia</p>
@@ -30,7 +31,7 @@
             </div>
         </div>
         <div class="w-full flex items-center justify-end">
-            <NuxtImg alt="hand-space" fromat="webp" class=" mr-8 flipped-img"
+            <NuxtImg alt="hand-space" format="webp" class=" mr-8 flipped-img"
                 src="f/3000521/1500x1293/8a6ea95b5a/flower-telephone.png" width="500" />
         </div>
     </div>
