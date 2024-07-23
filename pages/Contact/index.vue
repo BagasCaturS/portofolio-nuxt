@@ -12,7 +12,7 @@
                     </span>
                 </div>
                 <div class="flex items-center gap-4">
-                    <Icon name="material-symbols:chat" size="2rem" />
+                    <Icon name="material-symbols-light:chat-rounded" size="2rem" />
                     <span>
                         <a class="text-xl link link-hover" href="https://wa.link/0kgbdt">Chat with me!
                         </a>
@@ -20,7 +20,7 @@
 
                 </div>
                 <div class="flex items-center gap-4">
-                    <Icon name="ic:baseline-mail" size="2rem" />
+                    <Icon name="material-symbols-light:mail" size="2rem" />
                     <div class="tooltip tooltip-bottom" data-tip="bagascatursantoso@gmail.com">
                         <a href="mailto:bagascatursantoso@gmail.com" class="link link-hover ">
                             Email me!
