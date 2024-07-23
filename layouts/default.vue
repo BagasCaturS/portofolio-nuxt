@@ -86,7 +86,6 @@
 </template>
 
 <script setup>
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
