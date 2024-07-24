@@ -23,9 +23,9 @@
         </div>
 
         <div class="flex justify-end items-center">
-            <div class="tooltip tooltip-bottom" data-tip="This is just a place hodler dont hate me please">
-                <NuxtImg alt="profile-pic" format="webp" class=""
-                src="f/3000521/712x400/077040b457/acamre-png.png"/>
+            <div class="tooltip tooltip-bottom w-fit" data-tip="This is just a place holder dont hate me please">
+                <NuxtImg alt="profile-pic" format="webp" class=" size-11/12"
+                src="f/3000521/712x791/7333c98b40/frame-11-1.png"/>
             </div>
         </div>
     </div>
@@ -36,6 +36,7 @@
 </script>
 
 <style scoped>
+
 .cssanimation, .cssanimation span {
     animation-duration: 3s ;
     animation-fill-mode: both;

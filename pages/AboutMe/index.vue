@@ -8,8 +8,8 @@
                     Bandung, Indonesia
                 </h4>
                 <p class="mt-4 text-justify">
-                    I've been doing Web development since i joined University back in 2021. I used to do web developing
-                    back when i was a kid, but it was just that. But now i found my passion in Web development since it
+                    I've been doing Web development since i joined University back in 2021. I used to do web development
+                    back when i was a kid, and it was just a simple <'p>Hello world<'/p'> stuff. But now i found my passion in Web development since it
                     requires logical thinking, problem solving, getting creative in my designs or code, it's really fun!
                     (even though i come across lots of errors sometimes but it's really fun).
                 </p>
