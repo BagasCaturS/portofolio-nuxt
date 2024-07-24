@@ -10,5 +10,16 @@ export default defineNuxtConfig({
       baseURL:"https://a-ap.storyblok.com/"
     }
     
-  }
+  },
+  css: [
+    '@/assets/css/tailwind.css',
+  ],
+  build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
+  },
 })
