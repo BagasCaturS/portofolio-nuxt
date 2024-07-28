@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto py-4">
-        <div class="diff custom-w-h ">
+    <div class="container mx-auto py-4 lg:laptop-l">
+        <div class="diff custom-w-h">
             <div class="diff-item-1">
                 <div class="bg-primary text-primary-content grid place-content-center text-7xl font-black">
                     Front End Developer
@@ -23,5 +23,10 @@
 .custom-w-h {
     width: 1472px;
     height: 300px;
+}
+
+.laptop-l{
+    width: fit-content;
+    height: fit-content;
 }
 </style>
