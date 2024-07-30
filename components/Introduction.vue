@@ -23,7 +23,7 @@
         </div>
 
         <div class="flex justify-end items-center">
-            <div class="tooltip tooltip-bottom w-fit" data-tip="This is just a place holder dont hate me please">
+            <div class="tooltip tooltip-bottom w-fit flex flex-row justify-center items-center" data-tip="This is just a place holder dont hate me please">
                 <NuxtImg alt="profile-pic" format="webp" class=" size-11/12"
                 src="f/3000521/712x791/7333c98b40/frame-11-1.png"/>
             </div>

@@ -20,6 +20,7 @@
                     <!-- use Devicon on icones -->
                     <Icon name="devicon:github" style="white" size="5rem" />
                     <Icon name="devicon:vuejs" size="5rem" />
+                    <Icon name="simple-icons:daisyui" size="5rem" />
                     <Icon name="devicon:tailwindcss" size="5rem" />
                     <Icon name="devicon:html5" size="5rem" />
                     <Icon name="devicon:nodejs" size="5rem" />

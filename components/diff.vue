@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-4 lg:laptop-l">
+    <!-- <div class="container mx-auto py-4 lg:laptop-l">
         <div class="diff custom-w-h">
             <div class="diff-item-1">
                 <div class="bg-primary text-primary-content grid place-content-center text-7xl font-black">
@@ -11,7 +11,7 @@
             </div>
             <div class="diff-resizer"></div>
         </div>
-    </div>
+    </div> -->
     <div class="divider divider-accent"></div>
 </template>
 
