@@ -21,6 +21,7 @@
     "@iconify-json/devicon": "^1.1.48",
     "@iconify-json/logos": "^1.1.43",
     "@iconify-json/material-symbols-light": "^1.1.25",
+    "@iconify-json/simple-icons": "^1.1.111",
     "@iconify-json/skill-icons": "^1.1.9",
     "autoprefixer": "^10.4.19",
     "daisyui": "^4.12.10",

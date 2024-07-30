@@ -1,0 +1,83 @@
+[33mcommit 5bd9851dc28586c5f8c2dda49bc99127a7aef9a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbagas-dev[m[33m, [m[1;31morigin/bagas-dev[m[33m, [m[1;31morigin/bagas[m[33m, [m[1;32mbagas[m[33m)[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 30 22:31:48 2024 +0700
+
+    Added some new stuff on projects page
+
+[33mcommit a3b79b9a4ff44e3840fa54f6e2cda9df98644e5b[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Sun Jul 28 15:20:17 2024 +0700
+
+    Changes in some files, changes in footer to be more personalised and not default
+
+[33mcommit c8c8fb58bea773798e739a5e760049d30c640e3c[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Thu Jul 25 00:54:10 2024 +0700
+
+    Added new dependecies
+
+[33mcommit 568ab68a3d1f04e65916b8d7f991d4a83916e533[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Wed Jul 24 11:44:42 2024 +0700
+
+    Add some fixing to pages
+
+[33mcommit 7b76d2eb88620691359850840a5f1b12c834f8a9[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 23:32:02 2024 +0700
+
+    added new introdcution section and some other small fixes
+
+[33mcommit 720ac03ccbe330e42af0176e420acf6b64c0c0cd[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 20:01:14 2024 +0700
+
+    do some cleaning and added error page
+
+[33mcommit 27bd1fe4b34dc2f9bc7c0e87e842cd8cdfaf7431[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:47:11 2024 +0700
+
+    change some icons
+
+[33mcommit abc05382670b0352f656d30008b06d8057673a74[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:36:42 2024 +0700
+
+    fix the stuff that didnt work
+
+[33mcommit 4e0b88d426bd4e3f46e3805c8cfb61a613a857c3[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:31:12 2024 +0700
+
+    redo some stuff idk
+
+[33mcommit a719b908ed40f8b3cf7d3470b1ed3a9c32b28a11[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:29:04 2024 +0700
+
+    run new build
+
+[33mcommit f522aaca9822fde868cb1cc3596468755ce1b74a[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:25:20 2024 +0700
+
+    added speed insights for vercel
+
+[33mcommit ff2ca8c8a889e117d1b71552e6352fda5fc86ab7[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:16:06 2024 +0700
+
+    added some new dependencies
+
+[33mcommit ed0f33839057e54d96cfac37a98101d69270a346[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 15:07:43 2024 +0700
+
+    added new changesa to some files and added new file
+
+[33mcommit ead23f46b81149ad03c4d264c4f2470b1304863b[m
+Author: BagasCaturS <bagascatursantoso@gmail.com>
+Date:   Tue Jul 23 13:31:42 2024 +0700
+
+    upload files to git
