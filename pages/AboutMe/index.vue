@@ -1,7 +1,7 @@
 <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet" />
 <template>
-    <div class="mx-auto p-4 container">
-        <div class="p-4 container grid grid-cols-2">
+    <div class="mx-auto p-4 container ">
+        <div class="p-4 container lg:grid gap-4 lg:grid-cols-2">
             <div>
                 <h2 class="text-7xl">About me</h2>
                 <h4 class="text-3xl text-justify">I'm a Front-end developer or Back-end developer or Full stack developer based in
@@ -14,9 +14,10 @@
                     (even though i come across lots of errors sometimes but it's really fun).
                 </p>
             </div>
-            <div class="container flex items-center flex-col gap-8 justify-around">
+            <div class="divider divider-accent lg:hidden"></div>
+            <div class="container grid items-center flex-col gap-8 justify-around">
                 <h2 class="text-3xl">Here are the technologies that i use!</h2>
-                <div class="flex items-center justify-center  gap-4 cssanimation leRainDrop">
+                <div class="flex items-center justify-center gap-4 cssanimation leRainDrop">
                     <!-- use Devicon on icones -->
                     <Icon name="devicon:github" style="white" size="5rem" />
                     <Icon name="devicon:vuejs" size="5rem" />
@@ -25,9 +26,11 @@
                     <Icon name="devicon:html5" size="5rem" />
                     <Icon name="devicon:nodejs" size="5rem" />
                 </div>
-                <div class="flex cssanimation leRainDrop gap-4">
+                <div class="flex cssanimation leRainDrop gap-4 justify-center">
                     
                     <Icon name="devicon:css3" size="5rem" />
+                    <Icon name="devicon:express" size="5rem" />
+                    <Icon name="devicon:" size="5rem" />
                     <Icon name="devicon:javascript" size="5rem" />
                     <Icon name="devicon:nuxtjs" size="5rem" />
                     <Icon name="devicon:figma" size="5rem" />

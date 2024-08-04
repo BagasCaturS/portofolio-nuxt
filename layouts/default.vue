@@ -1,4 +1,6 @@
 <template>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <div class="container mx-auto p-4 ">
         <div class="navbar bg-base-100 rounded-md shadow-md p-5">
             <div class="navbar-start">
