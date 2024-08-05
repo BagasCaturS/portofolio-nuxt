@@ -11,13 +11,13 @@
                 MySQL. Eager to learn, collaborate, and contribute to dynamic web
                 applications. Committed to staying up-to-date with the latest
                 industry trends and best practices.</p>
-                <div class="mt-4 mr-8 flex gap-8 justify-start">
+                <div class="mt-4 flex gap-8 justify-between md:justify-start">
                     <NuxtLink to="/Contact">
-                        <button class="btn btn-outline btn-warning">Contact Me</button>
+                        <button class="btn w-32 md:w-fit btn-outline btn-warning">Contact Me</button>
                     </NuxtLink>
                     <NuxtLink to="/Project">
                         <div></div>
-                        <button class="btn btn-outline btn-accent">See My Projects</button>
+                        <button class="btn w-32 md:w-fit btn-outline btn-accent">See My Projects</button>
                     </NuxtLink>
                 </div>
         </div>
