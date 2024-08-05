@@ -1,24 +1,19 @@
 <template>
-    
-                    <!-- <div class="flex mx-4 gap-4">
-                        <Icon name="simple-icons:github" size="4rem" />
-                        <Icon name="simple-icons:googlecolab" size="4rem" />
-                        <Icon name="simple-icons:tensorflow" size="4rem" />
-                        <Icon name="simple-icons:python" size="4rem" />
-                    </div> -->
-    <div class="container mx-auto p-8 rounded-lg">
 
-        <div class="flex flex-col items-center gap-4">
+
+    <div class="container mx-auto rounded-lg">
+
+        <div class="flex flex-col items-center mx-auto m-4 gap-4">
             <div class="mx-auto flex flex-col items-center ">
 
-                <div class=" container p-4 bg-base-200 w-3/5 rounded-md">
-                    <div class="grid grid-cols-2 justify-between">
+                <div class=" container p-4 bg-base-200 w-fit rounded-md">
+                    <div class="flex flex-col gap-4 md:grid md:grid-cols-2 md:justify-between">
                         <div
-                            class="p-3 w-fit flex flex-col justify-center border border-accent rounded-md text-justify">
+                            class="p-3 flex flex-col justify-center border border-accent rounded-md text-justify w-full md:w-fit">
                             <h1>Internship as a <span class="text-warning">Data Scientist</span></h1>
                             <p class="mt-1">Telkom University, Bandung, Indonesia</p>
                         </div>
-                        <div class="flex justify-end">
+                        <div class="md:flex md:justify-end">
 
                             <div class="p-3 border border-accent rounded-md w-fit h-fit ">
                                 <h1>02-2024 | 08-2024</h1>
@@ -59,8 +54,21 @@
 
 
                 </div>
+                <div class="flex flex-col jse-contents items-center container">
+
+                    <div class="divider divider-accent"></div>
+                    <h1 class="text-xl text-center mb-4">Techs i used for building the project</h1>
+
+                    <div class="flex w-fit my-phone:mx-auto gap-4 bg-warning rounded-md p-4 text-gray-900 justify-center items-center" >
+                        <Icon name="simple-icons:github" size="4rem" />
+                        <Icon name="simple-icons:googlecolab" size="4rem" />
+                        <Icon name="simple-icons:tensorflow" size="4rem" />
+                        <Icon name="simple-icons:python" size="4rem" />
+                    </div>
+                </div>
             </div>
         </div>
+        <NuxtLayout name="footer" />
     </div>
 </template>
 

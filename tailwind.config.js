@@ -12,6 +12,7 @@ export default {
   content: [],
   theme: {
     screens: {
+      "my-phone":'383px',
       'md-max': {'max':'767px'},
       'xs': {'max':'425px'},
       // => @media (min-width: 320px) { ... }
