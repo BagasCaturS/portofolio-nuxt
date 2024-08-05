@@ -3,8 +3,8 @@
     <div class="mx-auto p-4 container ">
         <div class="p-4 container lg:grid gap-4 lg:grid-cols-2">
             <div>
-                <h2 class="text-7xl">About me</h2>
-                <h4 class="text-3xl text-justify">I'm a Front-end developer or Back-end developer or Full stack
+                <h2 class="text-7xl text-error">About me</h2>
+                <h4 class="text-3xl text-justify">I'm a <span class="text-success">Front-end developer</span> or <span class="text-accent">Back-end developer</span> or <span class=" text-info">Full stack</span>
                     developer based in
                     Bandung, Indonesia
                 </h4>
@@ -72,7 +72,7 @@
             <div class="flex flex-col container ">
                 <h2>Work History</h2>
                 <a href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
-                    target="_blank" class="btn btn-primary w-fit">Resume download</a>
+                    target="_blank" class="btn btn-primary w-fit text-lg">Resume download</a>
             </div>
         </div>
     </div>

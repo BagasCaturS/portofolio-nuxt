@@ -14,15 +14,15 @@
             </aside>
             <nav>
                 <div class="grid grid-flow-col gap-4">
-                    <NuxtLink to="https://github.com/BagasCaturS">
+                    <NuxtLink to="https://github.com/BagasCaturS" target="_blank">
                         <Icon name="devicon:github" size="2rem" />
                     </NuxtLink>
                     
-                    <NuxtLink to="https://www.linkedin.com/in/web-bagascaturs/">
+                    <NuxtLink to="https://www.linkedin.com/in/web-bagascaturs/" target="_blank">
                         <Icon name="devicon:linkedin" style="color:black;" size="2rem" />
                     </NuxtLink>
                     
-                    <NuxtLink to="https://www.instagram.com/idont_do_art/">
+                    <NuxtLink to="https://www.instagram.com/idont_do_art/" target="_blank">
                         <Icon name="skill-icons:instagram" size="2rem" />
                     </NuxtLink>
                     
