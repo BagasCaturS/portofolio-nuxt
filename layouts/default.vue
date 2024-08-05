@@ -58,7 +58,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <div class="avatar online placeholder mr-5">
+                <div class="xs:hidden avatar online placeholder mr-5">
                     <div class="bg-neutral text-neutral-content w-16 rounded-full">
                         <span class="text-xl">BGS</span>
                     </div>
