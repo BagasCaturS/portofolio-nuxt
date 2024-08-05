@@ -1,5 +1,5 @@
 <template>
-    <div class="grid items-center grid-cols-2 container p-4 mb-8">
+    <div class="flex flex-col md:grid md:grid-cols-2 md:items-center container p-4 mb-8">
         <div>
             <p class="mb-4">Got anything to ask?</p>
             <h2 class="text-4xl">Chat me on Whatsapp!</h2>
@@ -30,8 +30,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-full flex items-center justify-end">
-            <NuxtImg alt="flower-telephone" format="webp" class=" mr-8 flipped-img"
+        <div class="w-full flex items-center justify-center">
+            <NuxtImg alt="flower-telephone" format="webp" class=""
                 src="f/3000521/1500x1293/8a6ea95b5a/flower-telephone.png" width="500" />
         </div>
     </div>
