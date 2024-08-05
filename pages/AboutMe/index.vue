@@ -85,7 +85,7 @@
 <style scoped>
 .cssanimation,
 .cssanimation span {
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-fill-mode: both;
 }
 
@@ -147,4 +147,14 @@
 .cssanimation span:nth-child(4) {
     animation-delay: 3s;
 }
+
+.cssanimation span:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.cssanimation span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+
 </style>
