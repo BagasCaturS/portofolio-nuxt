@@ -54,7 +54,7 @@
 
 
                 </div>
-                <div class="flex flex-col jse-contents items-center container">
+                <div class="flex flex-col items-center container">
 
                     <div class="divider divider-accent"></div>
                     <h1 class="text-xl text-center mb-4">Techs i used for building the project</h1>

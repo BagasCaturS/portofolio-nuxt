@@ -14,12 +14,10 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <!-- Benerin ganti jadi NuxtLink -->
                         <NuxtLink to="/">
                             <li><a>Home</a></li>
                         </NuxtLink>
                         <li>
-                            <a>More</a>
                             <ul class="p-2">
                                 <NuxtLink to="/AboutMe">
                                     <li><a>About me</a></li>
@@ -35,7 +33,7 @@
                     </ul>
                 </div>
                 <NuxtLink to="/">
-                    <a id="logo" class="btn btn-ghost text-xl">OMG A Porto</a>
+                    <a id="logo" class="btn btn-ghost my-phone:text-xl rl-sm:text-base">OMG A Porto</a>
                 </NuxtLink>
             </div>
             <div class="navbar-center hidden lg:flex">

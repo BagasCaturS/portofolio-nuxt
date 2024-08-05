@@ -4,8 +4,8 @@
         <div class="p-4 container lg:grid gap-4 lg:grid-cols-2">
             <div>
                 <h2 class="text-7xl text-error">About me</h2>
-                <h4 class="text-3xl text-justify">I'm a <span class="text-success">Front-end developer</span> or <span class="text-accent">Back-end developer</span> or <span class=" text-info">Full stack</span>
-                    developer based in
+                <h4 class="text-3xl text-justify">I'm a <span class="text-success">Front-end developer</span> or <span class="text-accent">Back-end developer</span> or <span class=" text-info">Full stack developer</span>
+                     based in
                     Bandung, Indonesia
                 </h4>
                 <p class="mt-4 text-justify">

@@ -1,9 +1,10 @@
 <template>
+    <div class="divider divider-accent"></div>
     <div class="p-4 mx-auto my-8 w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div>
 
-            <h1 class="text-4xl lg:text-6xl font-bold">It is now fully (some of 'em are not) <span class="text-success">responsive🥳</span></h1>
-            <div class="divider divider-accent"></div>
+            <!-- <h1 class="text-4xl lg:text-6xl font-bold">It is now fully (some of 'em are not) <span class="text-success">responsive🥳</span></h1> -->
+             <!-- <h1 class=" text-4xl lg:text-4xl font-bold">Responsive🥳</h1> -->
             <h2 class="text-4xl lg:text-6xl font-bold">Hello 👋,</h2>
             <h2 class="text-4xl lg:text-6xl font-bold cssanimation lePopUp infinite">I'm <span class="text-error">Bagas Catur Santoso.</span></h2>
             <h2 class="text-4xl lg:text-6xl font-bold text-yellow-300 border-b-2 pb-4">Web Developer</h2>
