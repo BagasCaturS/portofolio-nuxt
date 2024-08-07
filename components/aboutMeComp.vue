@@ -1,9 +1,9 @@
 <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet" />
 <template>
-    <div class="mx-auto p-4 container ">
+    <div class="mx-auto container ">
         <div class="p-4 container lg:grid gap-4 lg:grid-cols-2">
             <div>
-                <h2 class="text-7xl text-error">About me</h2>
+                <h2 class="text-7xl text-error bg-slate-200 w-fit p-4 rounded-md hover:bg-base-200 transition-colors">About me</h2>
                 <h4 class="text-3xl text-justify">I'm a <span class="text-success">Front-end developer</span> or <span class="text-accent">Back-end developer</span> or <span class=" text-info">Full stack developer</span>
                      based in
                     Bandung, Indonesia
@@ -21,7 +21,7 @@
             <!-- disaat viewport menyentuh ukuran 768px maka akan di hidden kan -->
             <!-- bagaiaman cara biar bila sudah di atas 768px muncul -->
             <div class=" container grid items-center flex-col gap-8 justify-around">
-                <h2 class="text-3xl">Here are the technologies that i use!</h2>
+                <h2 class="text-3xl text-center">Here are the technologies that i use!</h2>
                 <!-- untuk d ukuran exact 767px dia bakal muncul 2 repeaating  -->
                  <!-- karena gua set screensize dimana dia bakal hide dan show d px tertentu -->
                   <!-- bisa cek tailwind.config.js -->
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <NuxtLayout name="footer"/>
+
 </template>
 
 <script setup>

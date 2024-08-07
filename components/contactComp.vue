@@ -35,7 +35,7 @@
                 src="f/3000521/1500x1293/8a6ea95b5a/flower-telephone.png" width="500" />
         </div>
     </div>
-    <NuxtLayout name="footer" />
+
 </template>
 
 <script setup>

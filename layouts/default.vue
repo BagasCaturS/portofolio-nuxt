@@ -62,12 +62,16 @@
                     </div>
                 </div>
                 <NuxtLink to="/contact">
-                    <a class="btn bg-orange-400 text-white hover:shadow-lg">Contact me</a>
+                    <button class="button-ctm">
+                        <span>
+                            Contact me
+                        </span>
+                    </button>
                 </NuxtLink>
             </div>
         </div>
         <div class="flex justify-end breadcrumbs text-sm m-8">
-            
+
             <ul class="border-outline-personal p-2 rounded-md">
                 <li>
                     <NuxtLink to="/">Home</NuxtLink>
@@ -117,5 +121,39 @@ const breadcrumbs = computed(() => generateBreadcrumbs(route));
 
 #logo:not(.router-link-exact-active) {
     color: rgb(221, 221, 221);
+}
+
+
+/* From Uiverse.io by mi-series */
+.button-ctm {
+    width: 150px;
+    padding: 0;
+    border: none;
+    transform: rotate(5deg);
+    transform-origin: center;
+    font-family: "Gochi Hand", cursive;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #494a4b;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #5cdb95;
+}
+
+.button-ctm span {
+    background: #f1f5f8;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #494a4b;
+    color: black;
+}
+
+.button-ctm:active {
+    transform: translateY(5px);
+    padding-bottom: 0px;
+    outline: 0;
 }
 </style>

@@ -1,5 +1,7 @@
 <template>
     <contactComp />
+    <NuxtLayout name="footer"/>
+
 </template>
 
 <script setup>

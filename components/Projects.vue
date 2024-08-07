@@ -56,9 +56,8 @@
                 </div>
                 <div class="flex flex-col items-center container">
 
-                    <div class="divider divider-accent"></div>
                     <h1 class="text-xl text-center mb-4">Techs i used for building the project</h1>
-
+                    
                     <div class="flex w-fit my-phone:mx-auto gap-4 bg-warning rounded-md p-4 text-gray-900 justify-center items-center" >
                         <Icon name="simple-icons:github" size="4rem" />
                         <Icon name="simple-icons:googlecolab" size="4rem" />
@@ -66,9 +65,11 @@
                         <Icon name="simple-icons:python" size="4rem" />
                     </div>
                 </div>
+                <div class="divider divider-accent"></div>
+                
             </div>
         </div>
-        <NuxtLayout name="footer" />
+
     </div>
 </template>
 

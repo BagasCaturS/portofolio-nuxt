@@ -1,6 +1,9 @@
 <template>
     <div>   
         <UnderConstruction />
+        <div class="mt-4"></div>
+        <NuxtLayout name="footer"/>
+
     </div>
 </template>
 

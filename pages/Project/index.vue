@@ -1,11 +1,12 @@
 <template>
     <div>
         <Projects />
+        <NuxtLayout name="footer"/>
+
     </div>
 </template>
 
 <script setup>
-import UnderConstruction from '~/components/UnderConstruction.vue';
 
 
 </script>

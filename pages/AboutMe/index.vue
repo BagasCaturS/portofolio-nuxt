@@ -1,5 +1,7 @@
 <template>
     <aboutMeComp />
+    <NuxtLayout name="footer"/>
+
 </template>
 
 <script setup>
