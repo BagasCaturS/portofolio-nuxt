@@ -17,11 +17,11 @@
                 industry trends and best practices.</p>
                 <div class="mt-4 flex gap-8 justify-between md:justify-start">
                     <NuxtLink to="/Contact">
-                        <button class="btn w-32 md:w-fit btn-outline button-85 btn-warning">Contact Me</button>
+                        <button class="btn w-32 md:w-fit btn-outline lg:text-lg button-85 btn-warning">Contact Me</button>
                     </NuxtLink>
                     <NuxtLink to="/Project">
                         <div></div>
-                        <button class="btn w-32 md:w-fit btn-outline button-30 btn-accent">See My Projects</button>
+                        <button class="btn w-32 md:w-fit btn-outline lg:text-lg button-30 btn-accent">See My Projects</button>
                     </NuxtLink>
                 </div>
         </div>
@@ -150,7 +150,6 @@
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
 }
 
 .button-30:focus {
