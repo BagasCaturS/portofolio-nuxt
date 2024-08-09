@@ -23,7 +23,7 @@
             <div class="divider divider-accent lg:hidden"></div>
             <!-- disaat viewport menyentuh ukuran 768px maka akan di hidden kan -->
             <!-- bagaiaman cara biar bila sudah di atas 768px muncul -->
-            <div class=" container grid items-center flex-col gap-8 justify-around">
+            <div class=" container flex items-center flex-col gap-8 justify-around">
                 <h2 class="text-3xl text-center">Here are the technologies that i use!</h2>
                 <!-- untuk d ukuran exact 767px dia bakal muncul 2 repeaating  -->
                 <!-- karena gua set screensize dimana dia bakal hide dan show d px tertentu -->
@@ -77,16 +77,16 @@
                 <h2>Download my resume here!</h2>
                 <div class=" my-phone:flex my-phone:justify-end my-phone:w-full md:justify-start">
 
-                    <button class="download-btn flex items-center justify-center ">
+                    <button class="download-btn flex items-center justify-center gradient-background ">
                         <a href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
                             target="_blank">
                             <svg id="download" viewBox="0 0 24 24" data-name="Layer 1"
-                                xmlns="http://www.w3.org/2000/svg">
+                                xmlns="http://www.w3.org/2000/svg" class="">
                                 <path
                                     d="M14.29,17.29,13,18.59V13a1,1,0,0,0-2,0v5.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42ZM18.42,6.22A7,7,0,0,0,5.06,8.11,4,4,0,0,0,6,16a1,1,0,0,0,0-2,2,2,0,0,1,0-4A1,1,0,0,0,7,9a5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Z">
                                 </path>
                             </svg>
-                            <span class="tooltip">Download my resume</span>
+                            <span class="tooltip">left click! 😈</span>
                         </a>
                     </button>
                 </div>
@@ -102,9 +102,28 @@
 
 <style scoped>
 /* From Uiverse.io by faxriddin20 */
+
+.gradient-background {
+  background: linear-gradient(211deg,#54f634,#f25fa5,#17d2fb,#3d708b,#711fc8,#2a96de);
+  background-size: 360% 360%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .tooltip {
     position: absolute;
-    right: -195px;
+    right: -130px;
     bottom: 7px;
     opacity: 0;
     background-color: rgb(12, 12, 12);
@@ -146,7 +165,6 @@
 }
 
 .download-btn {
-    border: 2px solid rgb(168, 38, 255);
     background-color: white;
     width: 50px;
     height: 50px;
