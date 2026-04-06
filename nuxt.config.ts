@@ -28,15 +28,6 @@ export default defineNuxtConfig({
     },
   },
   
-  // Nitro optimization
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/', '/sitemap.xml'],
-    },
-    compress: true,
-  },
-  
   // App config
   app: {
     head: {
@@ -53,13 +44,4 @@ export default defineNuxtConfig({
     },
   },
   
-  // Performance
-  features: {
-    inlineStyles: true,
-  },
-  
-  // Auto-imports
-  imports: {
-    autoImport: true,
-  },
 })
