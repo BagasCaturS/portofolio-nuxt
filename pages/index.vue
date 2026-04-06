@@ -7,7 +7,7 @@
         <!-- <diff /> -->
         <Introduction />
         <!-- Footer -->
-         <AboutMeComp />
+         <!-- <AboutMeComp /> -->
         <NuxtLayout name="footer"/>
 
     </div>

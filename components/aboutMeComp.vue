@@ -1,98 +1,82 @@
-<link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet" />
 <template>
-    <div class="mx-auto container ">
-        <div class="p-4 container lg:grid gap-4 lg:grid-cols-2">
-            <div>
-                <h2 class="text-7xl text-error bg-slate-200 w-fit p-4 rounded-md hover:bg-base-200 transition-colors">
-                    About me</h2>
-                <h4 class="text-3xl text-justify">I'm a <span class="text-success">Front-end developer</span> or <span
-                        class="text-accent">Back-end developer</span> or <span class=" text-info">Full stack
-                        developer</span>
-                    based in
-                    Bandung, Indonesia
-                </h4>
-                <p class="mt-4 text-justify">
-                    I've been doing Web development since i joined University back in 2021. I used to do web development
-                    back when i was a kid, and it was just a simple <'p>Hello world<' /p'> stuff. But now i found my
-                            passion in Web development since it
-                            requires logical thinking, problem solving, getting creative in my designs or code, it's
-                            really fun!
-                            (even though i come across lots of errors sometimes but it's really fun).
+    <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
+            <!-- About text -->
+            <div class="space-y-5">
+                <h2
+                    class="inline-block text-3xl sm:text-4xl lg:text-5xl font-bold text-error bg-base-200 px-4 py-2 rounded-md shadow-sm">
+                    About me
+                </h2>
+                <h3 class="text-xl sm:text-2xl lg:text-3xl leading-snug text-base-content">
+                    I'm a <span class="text-success font-semibold">Front-end developer</span> and
+                    <span class="text-accent font-semibold">Back-end developer</span>, building
+                    <span class="text-info font-semibold">full-stack applications</span> based in Bandung, Indonesia.
+                </h3>
+                <p class="mt-2 text-sm sm:text-base text-base-content/80 leading-relaxed max-w-prose">
+                    I've been building for the web since I started university in 2021, but my curiosity began much
+                    earlier with simple "hello world" pages. I enjoy the mix of logical thinking, problem solving, and
+                    creativity that web development demands — even when it means wrestling with tricky bugs along the
+                    way.
                 </p>
             </div>
-            <div class="divider divider-accent lg:hidden"></div>
-            <!-- disaat viewport menyentuh ukuran 768px maka akan di hidden kan -->
-            <!-- bagaiaman cara biar bila sudah di atas 768px muncul -->
-            <div class=" container flex items-center flex-col gap-8 justify-around">
-                <h2 class="text-3xl text-center">Here are the technologies that i use!</h2>
-                <!-- untuk d ukuran exact 767px dia bakal muncul 2 repeaating  -->
-                <!-- karena gua set screensize dimana dia bakal hide dan show d px tertentu -->
-                <!-- bisa cek tailwind.config.js -->
-                <div class=" md-max:hidden">
-                    <div class="flex items-center justify-center gap-4 cssanimation leRainDrop flex-wrap">
-                        <Icon name="devicon:github" style="white" size="5rem" />
-                        <Icon name="devicon:vuejs" size="5rem" />
-                        <Icon name="simple-icons:daisyui" size="5rem" />
-                        <Icon name="devicon:tailwindcss" size="5rem" />
-                        <Icon name="devicon:html5" size="5rem" />
-                        <Icon name="devicon:nodejs" size="5rem" />
-                    </div>
-                    <div class="flex flex-wrap shrink-0 cssanimation leRainDrop gap-4 justify-center">
 
-                        <Icon name="devicon:css3" size="5rem" />
-                        <Icon name="devicon:express" size="5rem" />
-                        <Icon name="devicon:" size="5rem" />
-                        <Icon name="devicon:javascript" size="5rem" />
-                        <Icon name="devicon:nuxtjs" size="5rem" />
-                        <Icon name="devicon:figma" size="5rem" />
-                    </div>
+            <!-- Tech stack & resume -->
+            <div class="flex flex-col gap-8">
+                <div class="space-y-3 text-center lg:text-left">
+                    <h3 class="text-xl sm:text-2xl font-semibold text-base-content">
+                        Technologies I work with
+                    </h3>
+                    <p class="text-sm sm:text-base text-base-content/70 max-w-md mx-auto lg:mx-0">
+                        A selection of tools and technologies I use regularly to design, build, and ship web
+                        experiences.
+                    </p>
                 </div>
 
-                <div class="md:hidden">
-                    <div class="flex items-center justify-center gap-4 cssanimation leRainDrop flex-wrap">
-                        <Icon name="devicon:github" style="white" size="5rem" />
-                        <Icon name="devicon:vuejs" size="5rem" />
-                        <Icon name="simple-icons:daisyui" size="5rem" />
-                        <Icon name="devicon:tailwindcss" size="5rem" />
-                        <Icon name="devicon:html5" size="5rem" />
-                        <Icon name="devicon:nodejs" size="5rem" />
-                    </div>
-                    <div class="flex flex-wrap shrink-0 cssanimation leRainDrop gap-4 justify-center">
-
-                        <Icon name="devicon:css3" size="5rem" />
-                        <Icon name="devicon:express" size="5rem" />
-                        <Icon name="devicon:" size="5rem" />
-                        <Icon name="devicon:javascript" size="5rem" />
-                        <Icon name="devicon:nuxtjs" size="5rem" />
-                        <Icon name="devicon:figma" size="5rem" />
-                    </div>
+                <!-- Icons grid -->
+                <div class="grid grid-cols-3 sm:grid-cols-4 gap-4 justify-items-center">
+                    <Icon name="devicon:github" class="w-12 h-12 sm:w-16 sm:h-16 text-base-content/80" />
+                    <Icon name="devicon:vuejs" class="w-12 h-12 sm:w-16 sm:h-16 text-emerald-500" />
+                    <Icon name="simple-icons:daisyui" class="w-12 h-12 sm:w-16 sm:h-16 text-purple-500" />
+                    <Icon name="devicon:tailwindcss" class="w-12 h-12 sm:w-16 sm:h-16 text-sky-500" />
+                    <Icon name="devicon:html5" class="w-12 h-12 sm:w-16 sm:h-16 text-orange-500" />
+                    <Icon name="devicon:css3" class="w-12 h-12 sm:w-16 sm:h-16 text-blue-500" />
+                    <Icon name="devicon:javascript" class="w-12 h-12 sm:w-16 sm:h-16 text-yellow-400" />
+                    <Icon name="devicon:nodejs" class="w-12 h-12 sm:w-16 sm:h-16 text-lime-500" />
+                    <Icon name="devicon:express" class="w-12 h-12 sm:w-16 sm:h-16 text-neutral-700" />
+                    <Icon name="devicon:nuxtjs" class="w-12 h-12 sm:w-16 sm:h-16 text-emerald-600" />
+                    <Icon name="devicon:figma" class="w-12 h-12 sm:w-16 sm:h-16 text-pink-500" />
                 </div>
 
-            </div>
-
-        </div>
-        <div class="pb-4 px-4">
-            <!-- /* From Uiverse.io by faxriddin20 */ -->
-            <div class="flex flex-col container my-phone:">
-                <h2>Download my resume here!</h2>
-                <div class=" my-phone:flex my-phone:justify-end my-phone:w-full md:justify-start">
-
-                    <button class="download-btn flex items-center justify-center gradient-background ">
-                        <a href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
-                            target="_blank">
-                            <svg id="download" viewBox="0 0 24 24" data-name="Layer 1"
-                                xmlns="http://www.w3.org/2000/svg" class="">
-                                <path
-                                    d="M14.29,17.29,13,18.59V13a1,1,0,0,0-2,0v5.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42ZM18.42,6.22A7,7,0,0,0,5.06,8.11,4,4,0,0,0,6,16a1,1,0,0,0,0-2,2,2,0,0,1,0-4A1,1,0,0,0,7,9a5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Z">
-                                </path>
-                            </svg>
-                            <span class="tooltip">left click! 😈</span>
+                <!-- Resume download -->
+                <div class="pt-4 border-t border-base-300">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                        <div>
+                            <h3 class="text-base sm:text-lg font-semibold text-base-content">
+                                Download my resume
+                            </h3>
+                            <p class="text-xs sm:text-sm text-base-content/70">
+                                View or download a detailed overview of my experience and skills (PDF).
+                            </p>
+                        </div>
+                        <a
+                            href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
+                            target="_blank" rel="noopener noreferrer" class="inline-flex">
+                            <button
+                                class="download-btn gradient-background inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm sm:text-base font-semibold text-white shadow-md hover:shadow-lg">
+                                <svg id="download" viewBox="0 0 24 24" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                    <path
+                                        d="M14.29,17.29,13,18.59V13a1,1,0,0,0-2,0v5.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42ZM18.42,6.22A7,7,0,0,0,5.06,8.11,4,4,0,0,0,6,16a1,1,0,0,0,0-2,2,2,0,0,1,0-4A1,1,0,0,0,7,9a5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Z">
+                                    </path>
+                                </svg>
+                                <span>Resume (PDF)</span>
+                            </button>
                         </a>
-                    </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 </template>
 
@@ -101,8 +85,6 @@
 </script>
 
 <style scoped>
-/* From Uiverse.io by faxriddin20 */
-
 .gradient-background {
   background: linear-gradient(211deg,#54f634,#f25fa5,#17d2fb,#3d708b,#711fc8,#2a96de);
   background-size: 360% 360%;
@@ -165,14 +147,12 @@
 }
 
 .download-btn {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
     position: relative;
     z-index: 1;
-    transition: all 0.2s ease;
     cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease;
 }
 
 .download-btn svg {
@@ -187,79 +167,5 @@
 
 .download-btn:hover {
     background-color: rgb(168, 38, 255);
-}
-
-
-.cssanimation,
-.cssanimation span {
-    animation-duration: 6s;
-    animation-fill-mode: both;
-}
-
-.cssanimation span {
-    display: inline-block
-}
-
-.leRainDrop span {
-    animation-name: leRainDrop;
-    animation-iteration-count: infinite;
-}
-
-@keyframes leRainDrop {
-
-    0%,
-    25%,
-    55%,
-    75%,
-    87%,
-    97%,
-    100% {
-        transform: scaleX(1.0)
-    }
-
-    26%,
-    56%,
-    76% {
-        transform: scaleX(1.3) scaleY(0.8)
-    }
-
-    31%,
-    61%,
-    81% {
-        transform: scaleX(0.8) scaleY(1.2)
-    }
-
-    76%,
-    88% {
-        transform: scaleX(1.2)
-    }
-
-    98% {
-        transform: scaleX(1.1)
-    }
-}
-
-.cssanimation span:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.cssanimation span:nth-child(2) {
-    animation-delay: 1s;
-}
-
-.cssanimation span:nth-child(3) {
-    animation-delay: 2s;
-}
-
-.cssanimation span:nth-child(4) {
-    animation-delay: 3s;
-}
-
-.cssanimation span:nth-child(5) {
-    animation-delay: 2s;
-}
-
-.cssanimation span:nth-child(6) {
-    animation-delay: 1s;
 }
 </style>

@@ -14,7 +14,7 @@
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@iconify-json/circum": "^1.1.11",
