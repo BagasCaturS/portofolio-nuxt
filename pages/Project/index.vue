@@ -1,8 +1,8 @@
 <template>
-    <NuxtLayout name="default">
+    <div>
         <ProjectsShowcase />
         <NuxtLayout name="footer" />
-    </NuxtLayout>
+    </div>
 </template>
 
 <script setup>

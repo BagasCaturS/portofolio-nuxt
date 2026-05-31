@@ -89,7 +89,7 @@
                     </div>
                     <div class="flex md:flex-col items-center md:items-end gap-2 text-sm">
                         <span class="inline-flex items-center rounded-full border border-accent/60 bg-base-100 px-3 py-1 font-medium text-xs sm:text-sm text-base-content/80">
-                            Ongoing (2024–Present)
+                            Ongoing (2026–Present)
                         </span>
                     </div>
                 </div>
