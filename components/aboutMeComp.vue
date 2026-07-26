@@ -1,171 +1,119 @@
 <template>
-    <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
-        <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
-            <!-- About text -->
-            <div class="space-y-5">
-                <h2
-                    class="inline-block text-3xl sm:text-4xl lg:text-5xl font-bold text-error bg-base-200 px-4 py-2 rounded-md shadow-sm">
-                    About me
-                </h2>
-                <h3 class="text-xl sm:text-2xl lg:text-3xl leading-snug text-base-content">
-                    I'm a <span class="text-success font-semibold">Front-end developer</span> and
-                    <span class="text-accent font-semibold">Back-end developer</span>, building
-                    <span class="text-info font-semibold">full-stack applications</span> based in Bandung, Indonesia.
-                </h3>
-                <p class="mt-2 text-sm sm:text-base text-base-content/80 leading-relaxed max-w-prose">
-                    I've been building for the web since I started university in 2021, but my curiosity began much
-                    earlier with simple "hello world" pages. I enjoy the mix of logical thinking, problem solving, and
-                    creativity that web development demands — even when it means wrestling with tricky bugs along the
-                    way.
-                </p>
+  <section class="relative py-16 sm:py-24 overflow-hidden">
+    <!-- Ambient blobs -->
+    <div class="absolute top-0 right-0 w-72 h-72 bg-blue-500/5 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center space-y-4 mb-16">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-sm font-medium border border-accent/20">
+          <Icon name="material-symbols-light:person-outline" class="w-4 h-4" />
+          About Me
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
+          Building the web, one
+          <span class="bg-gradient-to-r from-accent to-blue-400 bg-clip-text text-transparent">component</span>
+          at a time
+        </h2>
+        <p class="text-base sm:text-lg text-base-content/60 max-w-2xl mx-auto">
+          Full-stack developer based in Bandung, Indonesia — passionate about turning complex problems into simple, elegant solutions.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+        <!-- Story -->
+        <div class="space-y-6">
+          <div class="bg-base-200/50 backdrop-blur-sm border border-base-300/50 rounded-2xl p-6 sm:p-8 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
+                <Icon name="material-symbols-light:history-rounded" class="w-5 h-5 text-accent" />
+              </div>
+              <h3 class="text-xl font-semibold">My Journey</h3>
             </div>
+            <p class="text-base-content/70 leading-relaxed">
+              I've been building for the web since I started university in 2021, but my curiosity began much
+              earlier with simple "hello world" pages. I enjoy the mix of logical thinking, problem solving, and
+              creativity that web development demands — even when it means wrestling with tricky bugs along the
+              way.
+            </p>
+            <p class="text-base-content/70 leading-relaxed">
+              Currently focused on building full-stack applications with modern JavaScript ecosystems, from
+              responsive frontends with Vue.js and Nuxt.js to scalable backends with Node.js and PostgreSQL.
+            </p>
+          </div>
 
-            <!-- Tech stack & resume -->
-            <div class="flex flex-col gap-8">
-                <div class="space-y-3 text-center lg:text-left">
-                    <h3 class="text-xl sm:text-2xl font-semibold text-base-content">
-                        Technologies I work with
-                    </h3>
-                    <p class="text-sm sm:text-base text-base-content/70 max-w-md mx-auto lg:mx-0">
-                        A selection of tools and technologies I use regularly to design, build, and ship web
-                        experiences.
-                    </p>
-                </div>
-
-                <!-- Icons grid -->
-                <div class="grid grid-cols-3 sm:grid-cols-4 gap-4 justify-items-center">
-                    <Icon name="devicon:github" class="w-12 h-12 sm:w-16 sm:h-16 text-base-content/80" />
-                    <Icon name="devicon:vuejs" class="w-12 h-12 sm:w-16 sm:h-16 text-emerald-500" />
-                    <Icon name="simple-icons:daisyui" class="w-12 h-12 sm:w-16 sm:h-16 text-purple-500" />
-                    <Icon name="devicon:tailwindcss" class="w-12 h-12 sm:w-16 sm:h-16 text-sky-500" />
-                    <Icon name="devicon:html5" class="w-12 h-12 sm:w-16 sm:h-16 text-orange-500" />
-                    <Icon name="devicon:css3" class="w-12 h-12 sm:w-16 sm:h-16 text-blue-500" />
-                    <Icon name="devicon:javascript" class="w-12 h-12 sm:w-16 sm:h-16 text-yellow-400" />
-                    <Icon name="devicon:nodejs" class="w-12 h-12 sm:w-16 sm:h-16 text-lime-500" />
-                    <Icon name="devicon:express" class="w-12 h-12 sm:w-16 sm:h-16 text-neutral-700" />
-                    <Icon name="devicon:nuxtjs" class="w-12 h-12 sm:w-16 sm:h-16 text-emerald-600" />
-                    <Icon name="devicon:figma" class="w-12 h-12 sm:w-16 sm:h-16 text-pink-500" />
-                </div>
-
-                <!-- Resume download -->
-                <div class="pt-4 border-t border-base-300">
-                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                        <div>
-                            <h3 class="text-base sm:text-lg font-semibold text-base-content">
-                                Download my resume
-                            </h3>
-                            <p class="text-xs sm:text-sm text-base-content/70">
-                                View or download a detailed overview of my experience and skills (PDF).
-                            </p>
-                        </div>
-                        <a
-                            href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
-                            target="_blank" rel="noopener noreferrer" class="inline-flex">
-                            <button
-                                class="download-btn gradient-background inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm sm:text-base font-semibold text-white shadow-md hover:shadow-lg">
-                                <svg id="download" viewBox="0 0 24 24" data-name="Layer 1"
-                                    xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                    <path
-                                        d="M14.29,17.29,13,18.59V13a1,1,0,0,0-2,0v5.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42ZM18.42,6.22A7,7,0,0,0,5.06,8.11,4,4,0,0,0,6,16a1,1,0,0,0,0-2,2,2,0,0,1,0-4A1,1,0,0,0,7,9a5,5,0,0,1,9.73-1.61,1,1,0,0,0,.78.67,3,3,0,0,1,.24,5.84,1,1,0,1,0,.5,1.94,5,5,0,0,0,.17-9.62Z">
-                                    </path>
-                                </svg>
-                                <span>Resume (PDF)</span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
+          <div class="bg-base-200/50 backdrop-blur-sm border border-base-300/50 rounded-2xl p-6 sm:p-8 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center">
+                <Icon name="material-symbols-light:download-rounded" class="w-5 h-5 text-blue-400" />
+              </div>
+              <h3 class="text-xl font-semibold">Resume</h3>
             </div>
+            <p class="text-base-content/70 text-sm">
+              Download a detailed overview of my experience, education, and skills.
+            </p>
+            <a
+              href="https://github.com/BagasCaturS/Personal-project/blob/a6d36101928677ef75080790a1178d2276fbbffc/BagasCatur_Santoso_JFSD_Resume.pdf"
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-accent hover:bg-accent/90 text-accent-content font-medium transition-all duration-200 text-sm shadow-lg shadow-accent/20 hover:shadow-accent/40">
+              <Icon name="material-symbols-light:download-rounded" class="w-4 h-4" />
+              Download Resume (PDF)
+            </a>
+          </div>
         </div>
-    </section>
 
+        <!-- Tech Stack -->
+        <div class="bg-base-200/50 backdrop-blur-sm border border-base-300/50 rounded-2xl p-6 sm:p-8 space-y-6">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center">
+              <Icon name="material-symbols-light:code-rounded" class="w-5 h-5 text-accent" />
+            </div>
+            <h3 class="text-xl font-semibold">Technologies I Work With</h3>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div v-for="tech in techStack" :key="tech.name"
+              class="flex items-center gap-3 p-3 rounded-xl bg-base-300/30 border border-base-300/30 hover:bg-base-300/50 hover:border-base-300/60 transition-all duration-200 group">
+              <Icon :name="tech.icon" class="w-6 h-6" :class="tech.color" />
+              <span class="text-sm font-medium text-base-content/80">{{ tech.name }}</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-base-300/50">
+            <h4 class="text-sm font-semibold text-base-content/60 uppercase tracking-wider mb-3">Also experienced with</h4>
+            <div class="flex flex-wrap gap-2">
+              <span v-for="exp in alsoExperienced" :key="exp"
+                class="px-2.5 py-1 text-xs rounded-lg bg-base-300/30 text-base-content/60 border border-base-300/30">
+                {{ exp }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
+const techStack = [
+  { name: 'Vue.js', icon: 'devicon:vuejs', color: 'text-emerald-400' },
+  { name: 'Nuxt.js', icon: 'devicon:nuxtjs', color: 'text-emerald-500' },
+  { name: 'JavaScript', icon: 'devicon:javascript', color: 'text-yellow-400' },
+  { name: 'TypeScript', icon: 'devicon:typescript', color: 'text-blue-400' },
+  { name: 'Tailwind CSS', icon: 'devicon:tailwindcss', color: 'text-sky-400' },
+  { name: 'Node.js', icon: 'devicon:nodejs', color: 'text-lime-400' },
+  { name: 'Express', icon: 'devicon:express', color: 'text-base-content/80' },
+  { name: 'GitHub', icon: 'devicon:github', color: 'text-base-content/80' },
+  { name: 'Figma', icon: 'devicon:figma', color: 'text-pink-400' },
+]
 
+const alsoExperienced = ['React', 'Next.js', 'Python', 'TensorFlow', 'PostgreSQL', 'Supabase', 'DaisyUI']
 </script>
 
 <style scoped>
-.gradient-background {
-  background: linear-gradient(211deg,#54f634,#f25fa5,#17d2fb,#3d708b,#711fc8,#2a96de);
-  background-size: 360% 360%;
-  animation: gradient-animation 6s ease infinite;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
+@media (prefers-reduced-motion: reduce) {
+  .group:hover {
+    transform: none !important;
   }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.tooltip {
-    position: absolute;
-    right: -130px;
-    bottom: 7px;
-    opacity: 0;
-    background-color: rgb(12, 12, 12);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.2s;
-    pointer-events: none;
-    letter-spacing: 0.5px;
-}
-
-.tooltip::before {
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: rgb(12, 12, 12);
-    background-size: 1000%;
-    background-position: center;
-    transform: rotate(45deg);
-    left: -5%;
-    transition-duration: 0.3s;
-}
-
-.download-btn:hover .tooltip {
-    opacity: 1;
-    transition-duration: 0.3s;
-}
-
-.icon2 {
-    width: 18px;
-    height: 5px;
-    border-bottom: 2px solid #2196f3;
-    border-left: 2px solid #2196f3;
-    border-right: 2px solid #2196f3;
-}
-
-.download-btn {
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    transition: all 0.2s ease;
-}
-
-.download-btn svg {
-    width: 25px;
-    height: 25px;
-    transition: all 0.3s ease;
-}
-
-.download-btn:hover svg {
-    fill: white;
-}
-
-.download-btn:hover {
-    background-color: rgb(168, 38, 255);
 }
 </style>

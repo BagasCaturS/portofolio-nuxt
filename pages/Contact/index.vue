@@ -1,18 +1,6 @@
 <template>
+  <div>
     <contactComp />
-    <NuxtLayout name="footer"/>
-
+    <NuxtLayout name="footer" />
+  </div>
 </template>
-
-<script setup>
-
-
-
-</script>
-
-<style scoped>
-/* .flipped-img{
-    transform: scaleX(-1);
-
-} */
-</style>

@@ -1,13 +1,6 @@
 <template>
+  <div>
     <aboutMeComp />
-    <NuxtLayout name="footer"/>
-
+    <NuxtLayout name="footer" />
+  </div>
 </template>
-
-<script setup>
-
-</script>
-
-<style lang="scss" scoped>
-
-</style>
